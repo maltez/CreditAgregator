@@ -1,0 +1,17 @@
+The code is already written. Analyze the website: https://www.hotelratepro.com/
+
+B2B oriented website.
+Front-end and back-end is run on Meteor.js and MongoDB. Hosted on Esry bucket estatic. Meteor.js is hosted on AWS container and runs a docker with Meteor.js. 
+Worked with Blaze (native langue for Meteor.js) as Blaze has segmentation folds and the server memory capacity.
+
+Three aspects need work and Nimrod would like to get estimates on them to understand which to move ahead first:
+1. Migrate the existing code from Blaze to React which will allow having a more stable system from the user's point of view. We need a specialist who also knows also Meteor.js not on React.
+2. Some revamping of the actual structure in the dashboard will need to done: the functionality is good, but from the UX standpoint it needs optimizing.
+3. Test the actual website and then introduce testing procedures (regression) on the far back-end written in Python. (Priority 3).
+
+Website with the new landing page will be ready by end of this week. 
+Far back-end system is done in Python. Done independently of Meteor.js.
+Outsourced design of the landing page to a design studio. Behind the static page there is a dashboard for the users to create a requests and present the data in a certain structure. 
+Search engine is written with heavier functionality: cashing, indexing (only part of the data is fetched from the server to be presented quickly and then the remaining data should be fetched).
+
+Analyze the website: https://www.hotelratepro.com/
